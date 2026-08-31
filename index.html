@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Draped. — Modest, considered clothing</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Jost:wght@400;500;600&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <header class="nav">
+    <div class="wrap nav-inner">
+      <input type="checkbox" id="menuCheck" class="menu-toggle-checkbox" aria-label="Toggle navigation menu" />
+      <a href="#top" class="logo">Draped.</a>
+      <nav class="nav-links" id="navLinks">
+        <a href="#collection">New In</a>
+        <a href="#abayas">Abayas</a>
+        <a href="#hijabs">Hijabs</a>
+        <a href="#features">Our Fabric</a>
+        <a href="#journal">Journal</a>
+      </nav>
+      <div class="nav-cta">
+        <a href="#" class="btn btn-ghost">Account</a>
+        <a href="#collection" class="btn btn-primary">Shop New In</a>
+        <label for="menuCheck" class="menu-toggle">
+          <span></span><span></span><span></span>
+        </label>
+      </div>
+    </div>
+  </header>
+  <section class="hero" id="top">
+    <div class="wrap hero-grid">
+      <div>
+        <span class="eyebrow">Autumn Edit — Now Live</span>
+        <h1>Modest by design.<br><em>Considered</em> to the last stitch.</h1>
+        <p class="lead">
+          Abayas, hijabs, and everyday layers cut for full coverage without
+          bulk — in fabrics chosen to move, breathe, and hold their shape
+          through the day.
+        </p>
+        <div class="hero-actions">
+          <a href="#collection" class="btn btn-primary">Shop the Edit</a>
+          <a href="#features" class="btn btn-ghost">Our Fabric Story</a>
+        </div>
+        <p class="hero-note">Free exchanges within 30 days · Sizes XS–3XL, every style</p>
+      </div>
+      <div class="drape-card">
+        <video class="drape-video" autoplay muted loop playsinline>
+          <source src="Most Loved Set.MP4" type="video/mp4">
+          Your browser doesn't support video.
+        </video>
+        <div class="drape-caption">
+          <span class="name">Most Loved</span>
+          <a href="#collection" class="caption-link"> → </a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="features" id="features">
+    <div class="wrap">
+      <div class="section-head">
+        <span class="eyebrow">Why Draped?</span>
+        <h2>Coverage was never the trade-off</h2>
+        <p>Every piece is fit-tested on real bodies first, then finished in fabric that holds up to how you actually
+          move through a day.</p>
+      </div>
+      <div class="feature-grid">
+        <div class="feature">
+          <span class="mark">01</span>
+          <h3>Opaque by default</h3>
+          <p>No slip test, no double-lining needed. If it's not opaque in daylight, it doesn't leave the studio.</p>
+        </div>
+        <div class="feature">
+          <span class="mark">02</span>
+          <h3>Cut for movement</h3>
+          <p>Set-in sleeves and gusseted seams so reaching, sitting, and praying never pull a seam tight.</p>
+        </div>
+        <div class="feature">
+          <span class="mark">03</span>
+          <h3>True-to-size fit</h3>
+          <p>A published fit guide with real measurements, not a marketing size chart — plus free exchanges if it's off.
+          </p>
+        </div>
+        <div class="feature">
+          <span class="mark">04</span>
+          <h3>Fabric that lasts</h3>
+          <p>Pre-shrunk, colorfast, and machine washable — modest wear that's meant for weekly rotation, not one
+            occasion.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="collection" id="collection">
+    <div class="wrap">
+      <div class="collection-head">
+        <div>
+          <span class="eyebrow">The Edit</span>
+          <h2>New this season</h2>
+        </div>
+        <a href="#">View full collection →</a>
+      </div>
+      <div class="product-grid">
+        <div class="product">
+          <div class="product-frame">
+            <img src="Timeless Contrast Abaya.jpg" alt="Timeless Contrast Abaya">
+          </div>
+          <h3>Timeless Contrast Abaya </h3>
+          <span class="price">$128</span>
+        </div>
+        <div class="product">
+          <div class="product-frame">
+            <img src="khimar.jpg" alt="Khimar">
+          </div>
+          <h3>Tiered Chiffon Khimar</h3>
+          <span class="price">$34</span>
+        </div>
+        <div class="product">
+          <div class="product-frame">
+            <img src="Amber Leopard Hijab.jpg" alt="Modal Hijab">
+          </div>
+          <h3>Amber Leopard Hijab </h3>
+          <span class="price">$22</span>
+        </div>
+        <div class="product">
+          <div class="product-frame">
+            <img src="Buttercup Kimono Abaya.jpg" alt="Buttercup Abaya">
+          </div>
+          <h3>Buttercup Kimono Abaya</h3>
+          <span class="price">$148</span>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="cta-section">
+    <div class="wrap">
+      <div class="cta-band">
+        <span class="eyebrow">Join the List</span>
+        <h2>10% off your first order</h2>
+        <p>New arrivals, restocks, and the occasional fabric deep-dive — no spam, unsubscribe anytime.</p>
+        <form class="signup-form" onsubmit="event.preventDefault();">
+          <input type="email" placeholder="Your email address" required />
+          <button type="submit">Subscribe</button>
+        </form>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <div class="wrap">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="logo">Draped.</div>
+          <p>Modest clothing, considered from fabric to fit. Designed and finished in small batches.</p>
+        </div>
+        <div>
+          <h4>Shop</h4>
+          <ul>
+            <li><a href="#">Abayas</a></li>
+            <li><a href="#">Hijabs</a></li>
+            <li><a href="#">Occasion</a></li>
+            <li><a href="#">Sale</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Studio</h4>
+          <ul>
+            <li><a href="#">Our Fabric</a></li>
+            <li><a href="#">Size Guide</a></li>
+            <li><a href="#">Journal</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Support</h4>
+          <ul>
+            <li><a href="#">Shipping</a></li>
+            <li><a href="#">Exchanges</a></li>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">Track Order</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2026 Draped.</span>
+        <span>Made with care, worn every day.</span>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
